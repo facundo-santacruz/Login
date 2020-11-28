@@ -129,7 +129,7 @@ export default function SignInSide() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="createUser" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
@@ -143,3 +143,21 @@ export default function SignInSide() {
     </Grid>
   );
 }
+
+// const mapStateToProps = state => {
+//   return {
+//     user: state.reducer.users
+//   }
+// }
+
+// function mapDispatchToProps(dispatch) {
+//   return {
+//     dispatch,
+//     ...bindActionCreators({ getUser, postAdmin }, dispatch)
+//   }
+// }
+
+// export default connect(
+//   mapStateToProps,
+//   mapDispatchToProps
+// )(Usuarios)
